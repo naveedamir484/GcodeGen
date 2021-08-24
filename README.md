@@ -58,7 +58,7 @@ along with live visualisation.
 * numpy, Pillow  
 * Image Processing concepts are used
 * tkinter is used for User Interface.
-* Serail library is used to Maintain COM port Connection.
+* Serial library is used to Maintain COM port Connection.
 
 
 # Note for contributors
