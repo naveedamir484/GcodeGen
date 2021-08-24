@@ -68,7 +68,7 @@ along with live visualisation.
 * Contact naveedamir484@gmail.com for any query.
 * Extrace zip file or Clone this repository.
 * Open this Project in Visual Studio.
-* Open setup.py file and Run it ....  BOOM Ready to go.
+* Open setup.py file and Run it ....Ready to go.
 
 # Feedback
 Feel free to report issues and bugs. It will be helpful for further upgradation of this website.
