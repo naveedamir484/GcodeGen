@@ -1,12 +1,16 @@
 
 # Gcode Generator Software (Version 1.0)
 
+I Fabricated a CNC machine as my final year project. Software part was so hectic,
+I gotta convert image into g-code using INKSCAPE software and then i used to select 
+the gcode file  to visualise with another software and then  afer this I had to again open 
+another software GCODE_SENDER  to send the  gcode file to microcntroller. So being a developer
+I came up with this idea, why not to create a software which has all these functionality into one.
+
 It is very difficult to find a software which can convert any type 
 of image file into gcode and send it to the CNC machine parallelly at a same time after
-maintianig the COM Connection and could see working progress visually. So combining 
-all these functions into one I came up with this idea to develop this software. Whole
-software is writting in python3 and Tkinter library is used to make User interface.
-
+maintianig the COM Connection and could see working progress visually. This software is 
+writting in python3 and Tkinter library is used to make User interface.
 
 <h4>Link for Youtube Video: https://youtu.be/CsNLeWpOZ_k </h4>
 <h4>Link for .exe (setup): https://drive.google.com/drive/folders/1q6yQTF9iraXVfrgFC2kPzPZUfiSWEtS-?usp=sharing</h4>
