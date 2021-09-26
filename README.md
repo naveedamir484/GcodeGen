@@ -2,8 +2,8 @@
 # Gcode Generator Software (Version 1.0)
 
 I Fabricated a CNC machine as my final year project. Software part was so hectic,
-I gotta convert image into g-code using INKSCAPE software and then i used to select 
-the gcode file  to visualise with another software and then  afer this I had to again open 
+I gotta convert image into g-code using INKSCAPE software and then I used to select 
+the gcode file  to visualise with a software and then  after this again I had to open 
 another software GCODE_SENDER  to send the  gcode file to microcntroller. So being a developer
 I came up with this idea, why not to create a software which has all these functionality into one.
 
