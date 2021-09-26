@@ -12,6 +12,10 @@ software is writting in python3 and Tkinter library is used to make User interfa
 <h4>Link for .exe (setup): https://drive.google.com/drive/folders/1q6yQTF9iraXVfrgFC2kPzPZUfiSWEtS-?usp=sharing</h4>
 
 
+<p align="center">
+  <img src="images/1.png"  width="350" alt="accessibility text">
+</p>
+
 # Contents
 
 * Features
