@@ -13,7 +13,7 @@ software is writting in python3 and Tkinter library is used to make User interfa
 
 
 <p align="center">
-  <img src="images/1.png" width="400" alt="accessibility text">
+  <img src="images/1.png" style="border-radius: 1rem " width="400" alt="accessibility text">
 </p>
 
 # Contents
