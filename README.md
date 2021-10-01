@@ -1,15 +1,15 @@
 
 # Gcode Generator Software (Version 1.0)
 
-I Fabricated a CNC machine as my final year project. Software part was so hectic,as 
+I Fabricated a CNC machine as my final year project. Software part was so hectic, as 
 I had to convert image into G-code file using INKSCAPE software and then I used to select 
 the generated G-code file to visualise it with another software and then again I had to use a
-software GCODE_SENDER  to send the G-code file to Micro-Cntroller. That's why overall proceess was so painfull, 
+software GCODE_SENDER  to send the G-code file to Micro-Controller. That's why overall proceess was so painfull, 
 so being a developer I came up with this idea, why not to create a software which has all these functionality into one.
 
 It is very difficult to find a software which can convert any type 
 of image file into G-code and send it to the CNC machine parallelly at a same time after
-maintianig the COM Connection and could see working progress visually. So finally here it is ! This software is 
+maintianig the COM Connection with Micro-controller and could see working progress visually. So finally here it is ! This software is 
 writting in python3 and Tkinter library is used to make User interface.
 
 <h4>Link for Youtube Video: https://youtu.be/CsNLeWpOZ_k </h4>
@@ -31,27 +31,27 @@ writting in python3 and Tkinter library is used to make User interface.
 # Features
 
 * User can adjust Contrast and Brightness and convert into greyScale before processing. It helps the algorithm to read the boundaries more easily. 
-* User can send Gcode file saparately to CNC machine using 7th mode "Gcode Sender"
 * Different Speed modes are availble such as Slow, Fast, Super-fast in Raster-Gcode, consequently compromise with the quality.
 * Automatically convert reactangular image file into square internally during processing, to adjust CNC machine configuration. 
-* User could send the gcode parallelly after maintaining the connection with CNC Machine or MicroController. And could see the working progress visually.
+* COM port connectivity is available in only first four mode. With the help of this function, User dont have to wait for G-code file to be generated, instead
+  maintain the COM connection with Micro-Controller first and visualise the working progess live.
+* User can send Gcode file saparately to CNC machine using "Gcode Sender".This is usefull for those modes which dont have COM port connectivity.
 * This software basically has 7 modes to process differnt types of image and with differnt methods. Available Modes are :
 
 <b>1. Raster-Gcode:</b> 
-Take Raster Images (*.jpg ,*.png) as input and generate G-code file as Output along with live visualisation.There are options like slow, fast and super-fast but consequently quality of g-code file is compromised .
+Take raster images (*.jpg ,*.png) as input and generate G-code file as Output along with live visualisation.There are options like slow, fast and super-fast but consequently quality of g-code file is compromised .
 
-<b>2. Matrix Function:</b> It divides the image into multiple rows and cols using split and append the G-code of each gridImage(ixj) successively to final output. I made this Option for personal use.  
+<b>2. Matrix Function:</b> It divides the image into multiple rows and cols using split and append the G-code of each gridImage( i x j ) successively to final output. I made this option for personal use.  
 
-<b>3. Hash Printing:</b> Take Raster Images (*.jpg ,*.png) as input and divide the image into multiple horizontal lines stacked on top of each other and then produce Gcode of the same. This mode is kind of similar to laser technique. Com-Port connectivity is available in this mode along with live visualisation.  
+<b>3. Hash Printing:</b> Take raster images (*.jpg ,*.png) as input and divide the image into multiple horizontal lines stacked on top of each other and then produce Gcode of the same. This mode is kind of similar to laser technique.
 
-<b>4. Dot Printing:</b> Take Raster Images (*.jpg ,*.png) as input and convert to Dotted image and then produce Gcode of the same. Com-Port connectivity is available 
-along with live visualisation. 
+<b>4. Dot Printing:</b> Take raster images (*.jpg ,*.png) as input and convert to Dotted image and then produce Gcode of the same.
 
-<b>5. SVG To Gcode:</b>Takes *.svg image formate as input and Generate the Gcode file 
+<b>5. SVG To Gcode:</b>Takes *.svg image formate as input and Generate the Gcode file. COM port connectivity and live visualisation is not available in this mode, User has to generate the g-code file first and then use G-code Sender mode to access COM port saparately.
 
-<b>6. DXF To Gcode:</b>Takes *.dxf image formate as input and Generate the Gcode file 
+<b>6. DXF To Gcode:</b>Takes *.dxf file formate as input and Generate the Gcode file. COM port connectivity and live visualisation is not available in this mode, User has to generate the g-code file first and then use G-code Sender mode to access COM port saparately. 
 
-<b>7. G-code Sender:</b> G-code Sender to send the gcode file using COM-PORT communication or Bluetooth communication along with live Visualisation.
+<b>7. G-code Sender:</b> G-code Sender to send the G-code file separately using COM-PORT along with live Visualisation.
 
 
 
