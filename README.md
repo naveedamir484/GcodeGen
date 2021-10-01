@@ -30,12 +30,11 @@ writting in python3 and Tkinter library is used to make User interface.
 
 # Features
 
-* User can adjust Contrast and Brightness and convert into greyScale before processing. It helps the algorithm to read the boundaries more easily. 
+* User can adjust Contrast and Brightness and convert into greyScale before processing. It helps the algorithm to read the boundaries more easily.
 * Different Speed modes are availble such as Slow, Fast, Super-fast in Raster-Gcode, consequently compromise with the quality.
-* Automatically convert reactangular image file into square internally during processing, to adjust CNC machine configuration. 
-* COM port connectivity is available in only first four mode. With the help of this function, User dont have to wait for G-code file to be generated, instead
-  maintain the COM connection with Micro-Controller first and visualise the working progess live.
-* User can send Gcode file saparately to CNC machine using "Gcode Sender".This is usefull for those modes which dont have COM port connectivity.
+* Automatically convert reactangular image file into square internally during processing, to adjust CNC machine configuration.
+* COM port connectivity is available in only first four mode. With the help of this function, User don't have to wait for G-code file to be generated, instead maintain the     COM connection with Micro-Controller first and visualize the working progress live.
+* User can send G-code file separately to CNC machine using "G-code Sender". This is useful for those modes which don't have COM port connectivity.
 * This software basically has 7 modes to process differnt types of image and with differnt methods. Available Modes are :
 
 <b>1. Raster-Gcode:</b> 
