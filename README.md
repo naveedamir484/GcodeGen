@@ -19,6 +19,24 @@ writting in python3 and Tkinter library is used to make User interface.
   <img src="images/1.png" style="border-radius: 1rem " width="400" alt="accessibility text">
 </p>
 
+
+<p align="center">
+  <img src="images/2.png" style="border-radius: 1rem " width="400" alt="accessibility text">
+</p>
+
+
+
+<p align="center">
+  <img src="images/3.png" style="border-radius: 1rem " width="400" alt="accessibility text">
+</p>
+
+
+
+<p align="center">
+  <img src="images/4.png" style="border-radius: 1rem " width="400" alt="accessibility text">
+</p>
+
+
 # Contents
 
 * Features
