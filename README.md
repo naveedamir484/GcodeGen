@@ -4,7 +4,7 @@
 I Fabricated a CNC machine as my final year project. Software part was so hectic, as 
 I had to convert image into G-code file using INKSCAPE software and then I used to select 
 the generated G-code file to visualise it with another software and List goes on. That's why overall proceess was so painfull, 
-so being a developer I came up with this idea, why not to create a software which has all these functionality into one.
+so being a developer I came up with this idea, why not to create a software which has all these functionalities into one.
 
 It is very difficult to find a software which can convert any type 
 of image file into G-code and send it to the CNC machine parallelly at a same time after
@@ -39,6 +39,7 @@ writting in python3 and Tkinter library is used to make User interface.
   <img src="images/4.png" style="border-radius: 1rem " width="600" alt="accessibility text">
 </p>
 
+<hr></hr>
 
 # Contents
 
