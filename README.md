@@ -36,7 +36,7 @@ writting in python3 and Tkinter library is used to make User interface.
 <hr></hr>
 
 <p align="center">
-  <img src="images/4.png" style="border-radius: 1rem " width="600" alt="accessibility text">
+  <kbd><img src="images/4.png" style="border-radius: 1rem " width="600" alt="accessibility text"></kbd>
 </p>
 
 <hr></hr>
